@@ -1,0 +1,69 @@
+body {
+  background-color: #6d5555;
+  font-family: "Protest Riot", sans-serif;
+}
+
+.text,
+.text2 {
+  font-size: 3.6rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.text {
+  color: #b1dc16;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.text2 {
+  color: #c92590;
+  text-shadow: 2px 2px 4px #7f0909;
+}
+
+.yesButton {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.noButton {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+<div > button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+button {
+  margin: 10px; /* Adjust as needed */
+  padding: 10px 20px; /* Adjust as needed */
+  font-size: 16px; /* Adjust as needed */
+  border-radius: 5px; /* Adjust as needed */
+  flex-direction: row;
+}
+
+.valentine-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-container {
+  text-align: center;
+}
+
+.image {
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+}
+
+.question {
+  font-size: 24px; /* Adjust size as needed */
+  margin-bottom: 20px; /* Adjust spacing */
+}
